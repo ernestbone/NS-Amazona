@@ -72,7 +72,7 @@ export default function OrderPage() {
           purchase_units: [
             {
               amount: {
-                currency_code: '$',
+                currency_code: 'USD',
                 value: order!.totalPrice.toString(),
               },
             },
